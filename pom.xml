@@ -40,9 +40,7 @@
 			   <source>1.8</source>
 			   <target>1.8</target>
 			</configuration>
-		</plugin>
-		
-		
+		</plugin>		
 	</plugins>
     <finalName>web_demo2</finalName>
   </build>
