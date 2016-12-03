@@ -14,8 +14,8 @@ public class AppListener implements ServletContextListener{
 
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		System.out.println("×ÊÔ´³õÊ¼»¯");
-		//È«¾Ö×ÊÔ´³õÊ¼»¯,±ÈÈçÁ¬½Ó³Ø
+		System.out.println("èµ„æºåˆå§‹åŒ–");
+		//å…¨å±€èµ„æºåˆå§‹åŒ–,æ¯”å¦‚è¿æ¥æ± 
 	    ServletContext ctx = sce.getServletContext();
 	    Properties prop = new Properties();
 	    InputStream io = AppListener.class.getClassLoader().getResourceAsStream("/config.properties");;
@@ -32,8 +32,8 @@ public class AppListener implements ServletContextListener{
 
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {
-		//×ÊÔ´ÇåÀí
-		System.out.println("×ÊÔ´ÇåÀí¹¤×÷");
+		//èµ„æºæ¸…ç†
+		System.out.println("èµ„æºæ¸…ç†å·¥ä½œ,æ¯”å¦‚æ•°æ®åº“è¿æ¥æ± ã€å†…å­˜ã€çº¿ç¨‹æ± ç­‰");
 	}
 
 }
