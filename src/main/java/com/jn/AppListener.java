@@ -33,7 +33,7 @@ public class AppListener implements ServletContextListener{
 	@Override
 	public void contextDestroyed(ServletContextEvent sce) {
 		//资源清理
-		System.out.println("资源清理");
+		System.out.println("资源清理工作");
 	}
 
 }
